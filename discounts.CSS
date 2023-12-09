@@ -1,0 +1,88 @@
+body{
+ background:rgba(255,255,255,1);
+    background : -moz-linear-gradient(45deg, rgba(255,255,255,1) 0%, rgba(156,234,240,1) 17%, rgba(39,217,230,1) 29%, rgba(49,237,247,1) 44%, rgba(173,35,219,1) 59%, rgba(141,25,179,1) 70%, rgba(104,16,133,1) 79%, rgba(104,16,133,1) 100%);
+    background: -webkit-gradien (left bottom, right top, color-stop (0%, rgba(255,255,255,1)), color-stop(17%, rgba(156,234,240,1)), color-stop(29%, rgba(39,217,230,1)), color-stop(44%, rgba(49,237,247,1)), color-stop(59%, rgba(173,35,219,1)), color-stop (70%, rgba(141,25,179,1)), color-stop(79%, rgba(104,16,133,1)), color-stop(100%, rgba(104,16,133,1)));
+    background: -webkit-linear-gradient(45deg, rgba(255,255,255,1) 0%, rgba(156,234,240,1) 17%, rgba(39,217,230,1) 29%, rgba(49,237,247,1) 44%, rgba(173,35,219,1) 59%, rgba(141,25,179,1) 70%, rgba(104,16,133,1) 79%, rgba(104,16,133,1) 100%);
+    background: -o-linear-gradient(45deg, rgba(255,255,255,1) 0%, rgba(156,234,240,1) 17%, rgba(39,217,230,1) 29%, rgba(49,237,247,1) 44%, rgba(173,35,219,1) 59%, rgba(141,25,179,1) 70%, rgba(104,16,133,1) 79%, rgba(104,16,133,1) 100%);
+    background: -ms-linear-gradient(45deg, rgba(255,255,255,1) 0%, rgba(156,234,240,1) 17%, rgba(39,217,230,1) 29%, rgba(49,237,247,1) 44%, rgba(173,35,219,1) 59%, rgba(141,25,179,1) 70%, rgba(104,16,133,1) 79%, rgba(104,16,133,1) 100%);
+    background: linear-gradient(45deg, rgba(255,255,255,1) 0%, rgba(156,234,240,1) 17%, rgba(39,217,230,1) 29%, rgba(49,237,247,1) 44%, rgba(173,35,219,1) 59%, rgba(141,25,179,1) 70%, rgba(104,16,133,1) 79%, rgba(104,16,133,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#681085', GradientType=1 );}
+    .wrapper{
+        align-items: center; 
+        display: flex;
+        justify-content: space-around;  
+    }
+    
+    header .wrapper{
+        max-width: 1440px;   
+        width: 100%;  
+        margin: 0 auto; 
+        height: 175px;  
+    }
+    
+    header .wrapper nav.left_nav ul{
+        display: flex;
+    }
+    
+    header .wrapper nav.left_nav ul li{ 
+        display: flex;
+        margin-right: 16px;
+        margin-left: 16px;
+    }
+    
+    header .wrapper nav.left_nav ul li a{
+        text-decoration: none;
+        transition: all 300ms ease-in-out;
+        color: black;
+        font-family: 'Caveat', cursive;
+    }
+    
+    
+    header .wrapper nav.left_nav ul li a:hover{
+        text-decoration: none;
+        color: rgb(43, 226, 64);
+        transition: all 300ms ease-in-out;
+    }
+    header .wrapper nav.left_nav ul li a:active{
+        text-decoration: none;
+        color: rgb(226, 43, 43);
+        transition: all 300ms ease-in-out;
+    }
+    header .wrapper nav.right_nav ul{
+        display: flex;
+    }
+    
+    header .wrapper nav.right_nav ul li{ 
+        display: flex;
+        margin-right: 16px;
+        margin-left: 16px;}
+    
+    header .wrapper nav.right_nav ul li a{
+        text-decoration: none;
+        transition: all 300ms ease-in-out;
+        color: black;
+        font-family: 'Caveat', cursive;
+    }
+     
+    header .wrapper nav.right_nav ul li a:hover{
+        text-decoration: none;
+        color: rgb(43, 226, 64);
+        transition: all 300ms ease-in-out;
+    }
+    header .wrapper nav.right_nav ul li a:active{
+        text-decoration: none;
+        color: rgb(226, 43, 43);
+        transition: all 300ms ease-in-out;
+    }
+    h1 {
+        font-family: 'Caveat', cursive;
+    }
+    h3 {
+        font-family: 'Caveat', cursive;
+    } 
+    .page img{ 
+        border-radius: 200px 200px 200px 200px;
+-moz-border-radius: 200px 200px 200px 200px;
+-webkit-border-radius: 200px 200px 200px 200px;
+border: 8px double #000000;
+    }

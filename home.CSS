@@ -1,0 +1,91 @@
+body{
+background: rgba(52,195,247,1);
+background: -moz-linear-gradient(left, rgba(52,195,247,1) 0%, rgba(93,118,240,1) 32%, rgba(161,24,240,1) 71%, rgba(114,15,171,1) 100%);
+background: -webkit-gradient (left top, right top, color-stop(0%, rgba(52,195,247,1)), color-stop(32%, rgba(93,118,240,1)), color-stop(71%, rgba(161,24,240,1)), color-stop(100%, rgba(114,15,171,1)));
+background: -webkit-linear-gradient(left, rgba(52,195,247,1) 0%, rgba(93,118,240,1) 32%, rgba(161,24,240,1) 71%, rgba(114,15,171,1) 100%);
+background: -o-linear-gradient(left, rgba(52,195,247,1) 0%, rgba(93,118,240,1) 32%, rgba(161,24,240,1) 71%, rgba(114,15,171,1) 100%);
+background: -ms-linear-gradient(left, rgba(52,195,247,1) 0%, rgba(93,118,240,1) 32%, rgba(161,24,240,1) 71%, rgba(114,15,171,1) 100%);
+}
+.wrapper, .box{
+    align-items: center; 
+    display: flex;
+    justify-content: space-around;  
+}
+
+header .wrapper{
+    max-width: 1440px;   
+    width: 100%;  
+    margin: 0 auto; 
+    height: 175px;  
+}
+
+header .wrapper nav.left_nav ul{
+    display: flex;
+}
+
+header .wrapper nav.left_nav ul li{ 
+    display: flex;
+    margin-right: 16px;
+    margin-left: 16px;
+}
+
+header .wrapper nav.left_nav ul li a{
+    text-decoration: none;
+    transition: all 300ms ease-in-out;
+    color: black;
+    font-family: 'Caveat', cursive;
+}
+
+
+header .wrapper nav.left_nav ul li a:hover{
+    text-decoration: none;
+    color: rgb(43, 226, 64);
+    transition: all 300ms ease-in-out;
+}
+header .wrapper nav.left_nav ul li a:active{
+    text-decoration: none;
+    color: rgb(226, 43, 43);
+    transition: all 300ms ease-in-out;
+}
+header .wrapper nav.right_nav ul{
+    display: flex;
+}
+
+header .wrapper nav.right_nav ul li{ 
+    display: flex;
+    margin-right: 16px;
+    margin-left: 16px;}
+
+header .wrapper nav.right_nav ul li a{
+    text-decoration: none;
+    transition: all 300ms ease-in-out;
+    color: black;
+    font-family: 'Caveat', cursive;
+}
+ 
+header .wrapper nav.right_nav ul li a:hover{
+    text-decoration: none;
+    color: rgb(43, 226, 64);
+    transition: all 300ms ease-in-out;
+}
+header .wrapper nav.right_nav ul li a:active{
+    text-decoration: none;
+    color: rgb(226, 43, 43);
+    transition: all 300ms ease-in-out;
+}
+.page_heading h1 {
+    font-family: 'Caveat', cursive;
+}
+h2 {
+    font-family: 'Caveat', cursive;
+}    
+.page_heading{
+    display: flex;
+    position: relative;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+}
+.item{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
